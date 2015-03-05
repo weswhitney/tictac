@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  background: url("http://subtlepatterns.com//patterns/pixel_weave.png");
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.board {
+  height: 300px;
+  width: 300px;
+  margin: 33px auto;
+}
+
+.square {
+  float: left;
+  height: 100px;
+  width: 100px;
+  font-size: 75px;
+  padding-top: 17px;
+  text-align: center;
+}
+
+.v-box{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.c-box{
+  border: 2px solid black;
+}
+
+.h-box{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
